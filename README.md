@@ -34,5 +34,5 @@ The PROMICE Ice Velocity product is a timeseries of Greenland Ice Sheet velocity
 + I want all the data wihout clicking on each file! How do I do that? 
 
 ## How to cite:
-+When using the dataset please use: Anne Solgaard; Anders Kusk, 2021, "Greenland Ice Velocity from Sentinel-1 Edition 2", https://doi.org/10.22008/promice/data/sentinel1icevelocity/greenlandicesheet, GEUS Dataverse
-+Literature citation:  --coming up--
++ When using the dataset please use: Anne Solgaard; Anders Kusk, 2021, "Greenland Ice Velocity from Sentinel-1 Edition 2", https://doi.org/10.22008/promice/data/sentinel1icevelocity/greenlandicesheet, GEUS Dataverse
++ Literature citation:  --coming up--
