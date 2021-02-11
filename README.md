@@ -30,7 +30,7 @@ The PROMICE Ice Velocity product is a timeseries of Greenland Ice Sheet velocity
 | land_ice_surface_magnitude_std | Horizontal ice velocity error estimate           | m/d                    |
 
 ## How do I get the data? 
-+ The PROMICE Ice Velocity dataset for Greenland is available at: [doi:10.22008/PROMICE/DATA/SENTINEL1ICEVELOCITY/GREENLANDICESHEET/V1.0.0](https://doi.org/10.22008/PROMICE/DATA/SENTINEL1ICEVELOCITY/GREENLANDICESHEET/V1.0.0)
++ The PROMICE Ice Velocity dataset for Greenland is available at: https://dataverse01.geus.dk/dataverse/Ice_velocity/ 
 + I want all the data wihout clicking on each file! How do I do that? 
   + Use `wget`
   + Use the script posted further up for bulk dowload.
