@@ -35,4 +35,4 @@ The PROMICE Ice Velocity product is a timeseries of Greenland Ice Sheet velocity
 
 ## How to cite:
 + When using the dataset please use: Anne Solgaard; Anders Kusk, 2021, "Greenland Ice Velocity from Sentinel-1 Edition 2", https://doi.org/10.22008/promice/data/sentinel1icevelocity/greenlandicesheet, GEUS Dataverse
-+ Literature citation:  Solgaard, A., Kusk, A., Boncori, J. P. M., Dall, J., Mankoff, K. D., Ahlstrøm, A. P., Andersen, S. B., Citterio, M., Karlsson, N. B., Kjeldsen, K. K., Korsgaard, N. J., Larsen, S. H., and Fausto, R. S.: Greenland ice velocity maps from the PROMICE project, Earth Syst. Sci. Data Discuss. [preprint], https://doi.org/10.5194/essd-2021-46, in review, 2021.
++ Literature citation (we have a paper in Discussions for ESSD):  Solgaard, A., Kusk, A., Boncori, J. P. M., Dall, J., Mankoff, K. D., Ahlstrøm, A. P., Andersen, S. B., Citterio, M., Karlsson, N. B., Kjeldsen, K. K., Korsgaard, N. J., Larsen, S. H., and Fausto, R. S.: Greenland ice velocity maps from the PROMICE project, Earth Syst. Sci. Data Discuss. [preprint], https://doi.org/10.5194/essd-2021-46, in review, 2021.
