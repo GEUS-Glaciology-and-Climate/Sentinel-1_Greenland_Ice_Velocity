@@ -20,7 +20,7 @@ out_path = 'path/to/PROMICE_ice_velocity_data/'
 
 # access website
 response = requests.get('https://promice.org/PromiceDataPortal/api/' +
-                        'download/92ce7cf4-59b8-4a3f-8f75-93d166f5a7ca/Greenland_IV')
+                        'download/token/Greenland_IV')
 
 # parse html
 soup = BeautifulSoup(response.text, 'html.parser')
