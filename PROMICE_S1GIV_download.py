@@ -8,7 +8,6 @@
 import numpy as np
 import urllib.request
 import os
-from multiprocessing import Pool, freeze_support
 import time
 import requests
 from bs4 import BeautifulSoup
@@ -45,9 +44,8 @@ class MyProgressBar():
             self.pbar.finish()
     
 
-def PROMICE_download(k):
+def PROMICE_download(a_tag): 
           
-    a_tag = a_tags[k]
     link = a_tag['href']
                 
     # download file path
@@ -57,23 +55,17 @@ def PROMICE_download(k):
             
     print(k, 'Downloading %s' % download_url)
     
-    
 
-if __name__ == '__main__':
+start_time = time.time()
+start_local_time = time.ctime(start_time)
 
-    freeze_support()
+for a_tag in a_tags:
     
-    nb_cores = 5
-    
-    start_time = time.time()
-    start_local_time = time.ctime(start_time)
-    
-    with Pool(nb_cores) as p:
-        p.map(PROMICE_download, np.arange(0, len(a_tags)))
+    PROMICE_download(a_tag)
         
-    end_time = time.time()
-    end_local_time = time.ctime(end_time)
-    processing_time = (end_time - start_time) / 60
-    print("--- Processing time: %s minutes ---" % processing_time)
-    print("--- Start time: %s ---" % start_local_time)
-    print("--- End time: %s ---" % end_local_time)
+end_time = time.time()
+end_local_time = time.ctime(end_time)
+processing_time = (end_time - start_time) / 60
+print("--- Processing time: %s minutes ---" % processing_time)
+print("--- Start time: %s ---" % start_local_time)
+print("--- End time: %s ---" % end_local_time)
