@@ -13,13 +13,22 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import progressbar
+import argparse
 
-# set path to store data
-out_path = 'path/to/PROMICE_ice_velocity_data/'
+# parse command-line arguments
+parser = argparse.ArgumentParser(description='Download of the PROMICE Ice Velocity')
+
+parser.add_argument('-i', help='Path of the website from where outputs'
+                    + ' will be downloaded')
+parser.add_argument('-o', help='Path of the folder where outputs will' 
+                    + 'be stored')
+
+args = parser.parse_args()
+download_path = args.i
+out_path = args.o
 
 # access website
-response = requests.get('https://promice.org/PromiceDataPortal/api/' +
-                        'download/token/Greenland_IV')
+response = requests.get(download_path)
 
 # parse html
 soup = BeautifulSoup(response.text, 'html.parser')
