@@ -59,10 +59,9 @@ def PROMICE_download(a_tag):
                 
     # download file path
     download_url = 'https://promice.org/' + link
+    print('Downloading %s' % download_url)
     urllib.request.urlretrieve(download_url, out_path + link.split('/')[-1],
                                MyProgressBar())
-            
-    print(k, 'Downloading %s' % download_url)
     
 
 start_time = time.time()
