@@ -3,7 +3,7 @@
 ## Product info:
 The PROMICE Ice Velocity product is a timeseries of Greenland Ice Sheet velocity mosaics based on ESA Sentinel-1 SAR offset tracking. 
 + The product span the period January 2016 to present. 
-+ Spatial resolution: 500 m
++ Spatial resolution: 200 m
 + Temporal resolution: 12 days
 + Each mosaic span 2 Sentinel-1A cycles i.e. 24 days. All possible 6 and 12 day pairs using Sentinel-1A and 1B is included in the mosaic. 
 + A new mosaic is available approximately every 12 days. We aim to make it available within 10 days of the last included acquisition.
