@@ -2,6 +2,7 @@ name: promice-iv
 channels:
   - conda-forge
 dependencies:
+  - dask
   - IPython
   - matplotlib
   - numpy
