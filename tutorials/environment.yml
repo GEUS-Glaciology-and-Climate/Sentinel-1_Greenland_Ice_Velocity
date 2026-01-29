@@ -1,0 +1,16 @@
+name: promice-iv
+channels:
+  - conda-forge
+dependencies:
+  - dask
+  - IPython
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python>=3.11
+  - requests
+  - scipy
+  - xarray
+  - pip:
+      - beautifulsoup4
