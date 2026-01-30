@@ -32,6 +32,7 @@ The PROMICE Ice Velocity product is a timeseries of Greenland Ice Sheet velocity
 ## How do I get the data? 
 + The PROMICE Ice Velocity dataset for Greenland is available at: https://dataverse.geus.dk/dataverse/Ice_velocity/ . All editions are available here.
 + I want all the data without clicking on each file! How do I do that? See info on the dataverse page.
++ For a quick hands-on tutorial: Check out the Jupyter Notebooks under tutorials for code examples of how to download data, extract a flow line, a point or an area from a data file or a time series of data files.
 
 ## How to cite:
 + When using the dataset please use: Anne Solgaard; Anders Kusk, 2021, "Greenland Ice Velocity from Sentinel-1 Edition 4", https://doi.org/10.22008/promice/data/sentinel1icevelocity/greenlandicesheet, GEUS Dataverse
