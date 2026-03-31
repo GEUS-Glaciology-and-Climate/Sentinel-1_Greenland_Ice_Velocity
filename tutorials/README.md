@@ -2,6 +2,7 @@
 
 Jupyter Notebook tutorials can be found here to provide an introduction to:
 - Downloading from GEUS Dataverse
+- Querying and fetching through the GEUS Thredds server using OpenDAP
 - Loading and data handling
 - Dataset querying
 - Plotting and visualisation
