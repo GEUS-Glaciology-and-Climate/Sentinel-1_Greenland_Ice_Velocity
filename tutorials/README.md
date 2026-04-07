@@ -34,7 +34,7 @@ this outlines how to handle xarray Dataset objects.
 
 ### [Narsap Sermia](https://github.com/GEUS-Glaciology-and-Climate/Sentinel-1_Greenland_Ice_Velocity/blob/main/tutorials/promice_iv_narsap_sermia_tutorial.ipynb)
 1. Download a series of dataset files from the Dataverse portal
-2. Visualise and animate velocities over a given region
+2. Compute average velocities over a given region
 3. Produce a time-series of velocities at a given point
 4. Produce a time-series of average velocities across a flowline
 
