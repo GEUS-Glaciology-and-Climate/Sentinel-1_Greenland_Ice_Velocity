@@ -2,9 +2,11 @@ name: promice-iv
 channels:
   - conda-forge
 dependencies:
+  - bottleneck
   - dask
   - IPython
   - matplotlib
+  - netCDF4
   - numpy
   - pandas
   - pip
@@ -14,3 +16,4 @@ dependencies:
   - xarray
   - pip:
       - beautifulsoup4
+      - siphon
