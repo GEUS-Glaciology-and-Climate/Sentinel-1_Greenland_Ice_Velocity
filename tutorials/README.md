@@ -21,7 +21,7 @@ locations to showcase these routines - Sermeq Kujalleq, Narsap Sermia, Helheim G
 The main thing that differentiates the tutorials is that they each contain different approaches to 
 downloading the PROMICE IV dataset. The Sermeq Kujalleq and Narsap Sermia tutorials walk through 
 downloading through the [GEUS Dataverse](https://dataverse.geus.dk/dataverse/Ice_velocity/), whilst the 
-Helheim Glacier and Hagen Bræ tutorials outline how to fetch data from the [GEUS Thredds server](https://thredds.geus.dk/) 
+Helheim Glacier, Hagen Bræ and Saqqap Sermia/Kangaasarsuup Sermia tutorials outline how to fetch data from the [GEUS Thredds server](https://thredds.geus.dk/) 
 using OpenDAP querying.
 
 For beginners with no experience using xarray, we recommend starting with the Sermeq Kujalleq tutorial as 
@@ -47,6 +47,12 @@ this outlines an introduction to handling xarray Dataset objects.
 ### [Hagen Bræ](https://github.com/GEUS-Glaciology-and-Climate/Sentinel-1_Greenland_Ice_Velocity/blob/main/tutorials/promice_iv_hagen_brae_tutorial.ipynb)
 1. Connect to the PROMICE IV file series using OpenDAP
 2. Construct and compute a velocity time-series from a flowline
+
+### [Saqqap Sermia and Kangaasarsuup Sermia](https://github.com/GEUS-Glaciology-and-Climate/Sentinel-1_Greenland_Ice_Velocity/blob/main/tutorials/promice_iv_saqqap_kangaasarsuup_tutorial.ipynb)
+1. Access remote ice velocity datasets via THREDDS
+2. Visualise and compare ice velocity fields using geospatial maps
+3. Compute flowline-based velocity statistics
+4. Plot and compare ice velocities from two flowlines
 
 ### A note on OpenDAP querying with the GEUS Thredds server
 OpenDAP querying with our Thredds server can be slow at times. This can be due to a multitude of things, including 
