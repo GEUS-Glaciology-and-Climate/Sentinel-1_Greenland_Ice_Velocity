@@ -49,9 +49,9 @@ this outlines an introduction to handling xarray Dataset objects.
 2. Construct and compute a velocity time-series from a flowline
 
 ### [Saqqap Sermia and Kangaasarsuup Sermia](https://github.com/GEUS-Glaciology-and-Climate/Sentinel-1_Greenland_Ice_Velocity/blob/main/tutorials/promice_iv_saqqap_kangaasarsuup_tutorial.ipynb)
-1. Access remote ice velocity datasets via THREDDS
-2. Visualise and compare ice velocity fields using geospatial maps
-3. Compute flowline-based velocity statistics
+1. Connect to the PROMICE IV file series using OpenDAP
+2. Visualise and compare velocities using geospatial maps
+3. Compute flowline-based velocity time-series
 4. Plot and compare ice velocities from two flowlines
 
 ### A note on OpenDAP querying with the GEUS Thredds server
